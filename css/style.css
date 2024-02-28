@@ -1,0 +1,65 @@
+/* font-family start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family end */
+
+/* common css start */
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;  
+}
+
+/* common css end */
+
+/* header start */
+header{
+    padding: 15px 0;
+    background-color: #F0FFF0;
+}
+.cnav{}
+.logo{}
+.nbtn:focus{
+box-shadow: none;
+}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000 !important;
+}
+.btn_cm{
+    background-color:#21B573;
+    border-radius: 33px;
+    font-family:"Roboto", sans-serif;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.btn_cm:hover{
+    background-color:#FD511A;
+    color: #FFFFFF;
+}
+.btn_cm:active{
+    background-color:#FD511A !important;
+    color: #FFFFFF !important;
+}
+.btn_sign{
+    margin-left: 10px;
+    padding: 12px 28px;
+}
+/* header end */
+/* banner start */
+.banner{}
+.b_content{}
+.b_p1{
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1{}
+.b_p2{}
+.b_btn{}
+.b_img{}
+.b_img img{}
+/* banner end */
